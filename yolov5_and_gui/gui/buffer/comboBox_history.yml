@@ -1,0 +1,11 @@
+test:
+  dir:
+  - ''
+  - C:/Users/12424/Desktop/car/train
+  weights:
+  - ''
+train:
+  dir:
+  - ''
+  weights:
+  - ''

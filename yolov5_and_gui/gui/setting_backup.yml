@@ -1,0 +1,28 @@
+
+model_name: yolov5l
+
+img_size:
+- 640
+- 640
+
+save_dir: '.\outputs'
+
+train:
+  data_root: 'G:\dataset\yaogan\aircraft_100\train'
+  weights_path: ''
+  batch_size: 8
+  num_epoch: 200
+  save_interval: 50
+  num_worker: 0
+  resolution: 1080
+
+val:
+  data_root: 'G:\dataset\yaogan\aircraft_100\val'
+
+test:
+  data_root: 'G:\dataset\yaogan\aircraft_100\test'
+  weights_path: 'outputs\backup.pt'
+  conf_thresh: 0.35
+  nms_thresh: 0.45
+  img_size: 640
+
